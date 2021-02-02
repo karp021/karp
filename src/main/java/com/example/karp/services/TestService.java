@@ -9,9 +9,9 @@ public class TestService {
             return str.replaceAll(" ", "");
 
         String head = str.substring(0, 2);
-        String tail = str.substring(2);
+        Integer dsd = 12;
 
-        return head.replaceAll(" ", "") + tail;
+        return head.replaceAll(" ", "");
     }
 
     public void bubbleSort(int[] arr) {
