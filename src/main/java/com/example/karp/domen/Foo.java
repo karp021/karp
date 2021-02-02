@@ -1,3 +1,4 @@
+/*
 package com.example.karp.domen;
 
 import org.hibernate.annotations.GenericGenerator;
@@ -18,6 +19,11 @@ public class Foo {
             strategy = "org.hibernate.id.UUIDGenerator"
     )
 
+    public void das() {
+        Circul circul = new Circul();
+
+    }
+
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id;
 
@@ -36,3 +42,4 @@ public class Foo {
     }
 
 }
+*/
